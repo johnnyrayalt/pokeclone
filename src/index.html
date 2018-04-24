@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template</title>
+  </head>
+  <body>
+    <div class="poke">
+      <div class="card">
+        <form id="setPoke">
+          <div class="name">
+            <label for="name"><input id="trainerName" type="text" placeholder="enter name">
+          </div>
+            <div id="pokemonSelectList">
+              <div class="pokemon-container">
+                <input id="bulbasaur" class="poke-select input_hidden" type="radio" name="poke" value="bulbasaur">
+                <label class="label-input" for="bulbasaur">
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="">
+                </label>
+              </div>
+              <div class="pokemon-container">
+                <input id="charmander" class="poke-select input_hidden" type="radio" name="poke" value="charmander">
+                <label class="label-input" for="charmander">
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="">
+                </label>
+              </div>
+              <div class="pokemon-container">
+                <input id="squirtle" class="poke-select input_hidden" type="radio" name="poke" value="squirtle">
+                <label class="label-input" for="squirtle">
+                  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="">
+                </label>
+              </div>
+            </div>
+
+            <br>
+            <button class="btn btn-danger" type="submit" id="getMon">Pokemon</button>
+          </form>
+          <p><span class="poke1"></span></p>
+          <div class="error">
+            <p><span class="showErrors"></span></p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>

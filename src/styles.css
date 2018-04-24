@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://pre00.deviantart.net/2be7/th/pre/f/2012/085/3/b/electric_yellow_pallet_town_by_alucus-d4tz3wt.png);
+}
+
+.card {
+  text-align: center;
+  width: 60%;
+  height: 650px;
+  max-height: 370px;
+  margin: 12% auto;
+  padding: 3%;
+}
+
+#pokemonSelectList label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.input_hidden {
+  position: absolute;
+  visibility: hidden
+}
+
+.pokemon-container {
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  max-height: 200px;
+  margin: 20px;
+}
+
+.label-input img {
+  margin:15px;
+}
+
+.input_hidden:checked + .label-input img {
+  height: 100px;
+  width: auto;
+}
+
+.label-input img:hover {
+  height: 130px;
+  width: auto;
+}
+
+#setPoke {
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+}
